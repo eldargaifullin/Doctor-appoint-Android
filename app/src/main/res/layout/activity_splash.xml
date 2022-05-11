@@ -9,7 +9,7 @@
 
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="326dp"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
@@ -20,11 +20,16 @@
             android:layout_height="wrap_content"
             app:srcCompat="@mipmap/splash_logo" />
 
-        <ImageView
-            android:id="@+id/splash_logo1"
-            android:layout_width="197dp"
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/splash_logo1" />
+            android:fontFamily="@font/audiowide"
+            android:gravity="center"
+            android:text="  Stroke Rehab"
+            android:textAlignment="textStart"
+            android:textColor="#2288FF"
+            android:textSize="35dp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </LinearLayout>

@@ -14,34 +14,12 @@ import java.util.Calendar;
 
 import mehdi.sakout.aboutpage.AboutPage;
 import mehdi.sakout.aboutpage.Element;
-
-public class AboutActivity extends AppCompatActivity {
+public class AboutStrokeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_about_app);
-
-        simulateDayNight(/* DAY */ 0);
-        Element adsElement = new Element();
-        adsElement.setTitle("Advertise with us");
-
-        View aboutPage = new AboutPage(this)
-                .isRTL(false)
-                .setImage(R.mipmap.alogo)
-                .addItem(new Element().setTitle("Version 1"))
-                .addItem(adsElement)
-                .addGroup("Connect with us")
-                .addEmail("kumaraman367@gmail.com")
-                .addWebsite("http://aman367.rf.gd")
-                .addFacebook("amcool367")
-                .addTwitter("amcool367")
-                .addInstagram("amcool367")
-                .addGitHub("amankumar367/HospitalAppointy")
-                .addItem(getCopyRightsElement())
-                .create();
-
-        setContentView(aboutPage);
+        setContentView(R.layout.activity_static_stroke);
     }
 
 
@@ -56,7 +34,7 @@ public class AboutActivity extends AppCompatActivity {
         copyRightsElement.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(AboutActivity.this, copyrights, Toast.LENGTH_SHORT).show();
+                Toast.makeText(AboutStrokeActivity.this, copyrights, Toast.LENGTH_SHORT).show();
             }
         });
         return copyRightsElement;

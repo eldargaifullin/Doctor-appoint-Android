@@ -17,12 +17,12 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        ImageView mSplashText = (ImageView) findViewById(R.id.splash_logo1);
+//        ImageView mSplashText = (ImageView) findViewById(R.id.splash_logo1);
         ImageView mSplashLogo = (ImageView) findViewById(R.id.splash_logo);
         Animation uptodown = AnimationUtils.loadAnimation(this, R.anim.uptodown);
         Animation downtoup = AnimationUtils.loadAnimation(this, R.anim.downtoup);
 
-        mSplashText.setAnimation(downtoup);
+      //  mSplashText.setAnimation(downtoup);
         mSplashLogo.setAnimation(uptodown);
 
         Handler handler = new Handler(Looper.getMainLooper());

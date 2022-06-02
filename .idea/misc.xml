@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/drawable/about_icon.xml" value="0.111" />
+        <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/drawable/tab_background.xml" value="0.184" />
+        <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/drawable/text_background.xml" value="0.184" />
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/activity_book_appointment.xml" value="0.25" />
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/activity_doctor_profile.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/activity_edit_doctor_profile.xml" value="0.10416666666666667" />
@@ -13,14 +15,16 @@
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/activity_register_patient.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/activity_show_doctor_appointment.xml" value="0.10416666666666667" />
-        <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/activity_splash.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/activity_static_page.xml" value="0.1" />
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/activity_static_receipt.xml" value="0.14285714285714285" />
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/activity_static_rehab.xml" value="0.1" />
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/activity_static_stroke.xml" value="0.14285714285714285" />
-        <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/app_bar_layout.xml" value="0.10416666666666667" />
+        <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/app_bar_layout.xml" value="0.22" />
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/doctorlist_item_layout.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/single_doctor_list.xml" value="0.22" />
+        <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/fragment_doctor.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/header_menu.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/single_doctor_list.xml" value="0.1" />
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/single_show_appointment.xml" value="0.1" />
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/udate_dialog.xml" value="0.1" />
         <entry key="..\:/Users/Eldar/StudioProjects/Doctor-appoint-Android/app/src/main/res/layout/verify_email.xml" value="0.1" />

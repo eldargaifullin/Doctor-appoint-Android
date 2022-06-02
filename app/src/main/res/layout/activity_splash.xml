@@ -24,8 +24,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/audiowide"
-            android:gravity="center"
-            android:text="  Stroke Rehab"
+
+            android:text="     ClinicAid"
             android:textAlignment="textStart"
             android:textColor="#2288FF"
             android:textSize="35dp"

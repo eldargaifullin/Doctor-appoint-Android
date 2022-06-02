@@ -15,6 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -72,7 +73,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         //Toolbar
         mToolbar = (Toolbar) findViewById(R.id.main_toolbar);
         setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle("Hospital Appointy");
+        getSupportActionBar().setTitle("ClinicAid");
 
         //DrawerLayout and ToggleButton
         mDrawerLayout = findViewById(R.id.main_drawerLayout);
@@ -298,8 +299,25 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_stroke_rehab:
                 startActivity(new Intent(HomeActivity.this, RehabStroke.class));
                 break;
-
-
+/* 02-06-2022
+            case R.id.ch:
+                ImageView imageViewCh = new ImageView(getActivity());
+                imageViewCh.setMaxHeight(24);
+                imageViewCh.setMaxWidth(24);
+                imageViewCh.setImageResource(R.drawable.ch);
+				item.setActionView(imageViewCh);
+				
+				// startActivity(new Intent(HomeActivity.this, HealthReceipt.class));
+                break;
+            case R.id.en:
+				ImageView imageViewEn = new ImageView(getActivity());
+                imageViewEn.setMaxHeight(24);
+                imageViewEn.setMaxWidth(24);
+                imageViewEn.setImageResource(R.drawable.en);
+				item.setActionView(imageViewEn);
+                // startActivity(new Intent(HomeActivity.this, RehabStroke.class));
+                break;
+*/
             default:
                 break;
         }

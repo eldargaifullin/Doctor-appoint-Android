@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aman.hospitalappointy.auth.RegisterPatientActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/rehab1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:text="Occuptional therapy"
+                android:textColor="#FF8F00"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="The goal of stroke rehabilitation is to help you relearn skills you lost when a stroke affected part of your brain. Stroke rehabilitation can help you regain independence and improve your quality of life.
+                The severity of stroke complications and each person's ability to recover vary widely. Researchers have found that people who participate in a focused stroke rehabilitation program perform better than most people who don't have stroke rehabilitation.
+                What's involved in stroke rehabilitation?
+                There are many approaches to stroke rehabilitation. Your rehabilitation plan will depend on the part of the body or type of ability affected by your stroke.
+
+                Physical activities might include:
+                Motor-skill exercises.
+                These exercises can help improve your muscle strength and coordination. You might have therapy to strengthen your swallowing.
+                Mobility training. You might learn to use mobility aids, such as a walker, canes, wheelchair or ankle brace. The ankle brace can stabilize and strengthen your ankle to help support your body's weight while you relearn to walk.
+                Constraint-induced therapy. An unaffected limb is restrained while you practice moving the affected limb to help improve its function. This therapy is sometimes called forced-use therapy.
+                Range-of-motion therapy. Certain exercises and treatments can ease muscle tension (spasticity) and help you regain range of motion."
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/audiowide"
+                android:gravity="center"
+                android:text="Speech therapy"
+                android:textColor="#FF8F00"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="To improve speech and swallowing"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/rehab2" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

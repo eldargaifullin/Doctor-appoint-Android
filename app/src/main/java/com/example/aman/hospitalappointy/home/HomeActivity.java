@@ -15,11 +15,16 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.aman.hospitalappointy.SplashActivity;
 import com.example.aman.hospitalappointy.about.AboutActivity;
+import com.example.aman.hospitalappointy.about.AboutStrokeActivity;
+import com.example.aman.hospitalappointy.about.AboutTradMedicine;
+import com.example.aman.hospitalappointy.about.HealthReceipt;
+import com.example.aman.hospitalappointy.about.RehabStroke;
 import com.example.aman.hospitalappointy.doctor.DoctorProfileActivity;
 import com.example.aman.hospitalappointy.doctor.ShowDoctorAppointmentActivity;
 import com.example.aman.hospitalappointy.feedback.FeedbackActivity;
@@ -68,7 +73,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         //Toolbar
         mToolbar = (Toolbar) findViewById(R.id.main_toolbar);
         setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle("Hospital Appointy");
+        getSupportActionBar().setTitle("ClinicAid");
 
         //DrawerLayout and ToggleButton
         mDrawerLayout = findViewById(R.id.main_drawerLayout);
@@ -118,6 +123,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         final MenuItem nav_ShowAppointment = menuNav.findItem(R.id.nav_showAppointment);
         final MenuItem nav_BookedAppointment = menuNav.findItem(R.id.nav_bookedAppointment);
         final MenuItem nav_feedback = menuNav.findItem(R.id.nav_feedback);
+        //07-05-2022
+        final MenuItem nav_about_stroke = menuNav.findItem(R.id.nav_about_stroke);
         MenuItem nav_logOut = menuNav.findItem(R.id.nav_logout);
         MenuItem nav_logIn = menuNav.findItem(R.id.nav_login);
 
@@ -279,6 +286,38 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_aboutapp:
                 startActivity(new Intent(HomeActivity.this, AboutActivity.class));
                 break;
+//07-05-2022
+            case R.id.nav_about_stroke:
+                startActivity(new Intent(HomeActivity.this, AboutStrokeActivity.class));
+                break;
+            case R.id.nav_tradit_med:
+                startActivity(new Intent(HomeActivity.this, AboutTradMedicine.class));
+                break;
+            case R.id.nav_health_receipt:
+                startActivity(new Intent(HomeActivity.this, HealthReceipt.class));
+                break;
+            case R.id.nav_stroke_rehab:
+                startActivity(new Intent(HomeActivity.this, RehabStroke.class));
+                break;
+/* 02-06-2022
+            case R.id.ch:
+                ImageView imageViewCh = new ImageView(getActivity());
+                imageViewCh.setMaxHeight(24);
+                imageViewCh.setMaxWidth(24);
+                imageViewCh.setImageResource(R.drawable.ch);
+				item.setActionView(imageViewCh);
+				
+				// startActivity(new Intent(HomeActivity.this, HealthReceipt.class));
+                break;
+            case R.id.en:
+				ImageView imageViewEn = new ImageView(getActivity());
+                imageViewEn.setMaxHeight(24);
+                imageViewEn.setMaxWidth(24);
+                imageViewEn.setImageResource(R.drawable.en);
+				item.setActionView(imageViewEn);
+                // startActivity(new Intent(HomeActivity.this, RehabStroke.class));
+                break;
+*/
             default:
                 break;
         }

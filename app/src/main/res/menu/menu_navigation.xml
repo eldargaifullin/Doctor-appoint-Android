@@ -16,7 +16,7 @@
         <item
             android:id="@+id/nav_bookedAppointment"
             android:icon="@mipmap/icon"
-            android:title="Booked Appointment"/>
+            android:title="Appointments"/>
         <item
             android:id="@+id/nav_login"
             android:icon="@mipmap/login"
@@ -25,13 +25,43 @@
             android:id="@+id/nav_logout"
             android:icon="@mipmap/logout"
             android:title="Log Out"/>
-
-
         </group>
+
+
+    <group
+        android:id="@+id/langGroup"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/en"
+            android:title="English" />
+        <item
+            android:id="@+id/ch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ch"
+            android:title="Chinese" />
+    </group>
 
     <group
         android:id="@+id/helpGroop"
         android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about_stroke"
+            android:title="About stroke"/>
+        <item
+            android:id="@+id/nav_tradit_med"
+            android:title="Traditional medicine"/>
+        <item
+            android:id="@+id/nav_health_receipt"
+            android:title="Health receipt"/>
+        <item
+            android:id="@+id/nav_stroke_rehab"
+            android:title="Stroke Rehabilation"/>
 
         <item
             android:id="@+id/nav_feedback"
@@ -39,6 +69,7 @@
         <item
             android:id="@+id/nav_aboutapp"
             android:title="About App"/>
+
 
     </group>
 </menu>

@@ -1,12 +1,14 @@
 package com.example.aman.hospitalappointy.feedback;
 
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.ImageView;
 
 import com.example.aman.hospitalappointy.R;
 import com.example.aman.hospitalappointy.home.HomeActivity;
@@ -22,6 +24,7 @@ public class FeedbackActivity extends AppCompatActivity {
     private TextView mName, mEmail;
     private EditText mFeedbackText;
     private Button mSubmitFeedback;
+    private ImageView mAdBanner;
 
     private String currnetUID;
 
@@ -39,6 +42,7 @@ public class FeedbackActivity extends AppCompatActivity {
         mEmail = (TextView) findViewById(R.id.feedback_email);
         mFeedbackText = (EditText) findViewById(R.id.feedback_text);
         mSubmitFeedback = (Button) findViewById(R.id.feedback_submit_button);
+        mAdBanner= (ImageView) findViewById(R.id.splash_logo);
 
         mSubmitFeedback.setOnClickListener(new View.OnClickListener() {
             @Override

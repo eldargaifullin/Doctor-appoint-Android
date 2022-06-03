@@ -1,8 +1,8 @@
 package com.example.aman.hospitalappointy.about;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.app.Activity;
 import android.content.res.Configuration;
+import android.os.Bundle;
 import android.support.v7.app.AppCompatDelegate;
 import android.view.Gravity;
 import android.view.View;
@@ -15,33 +15,13 @@ import java.util.Calendar;
 import mehdi.sakout.aboutpage.AboutPage;
 import mehdi.sakout.aboutpage.Element;
 
-public class AboutActivity extends AppCompatActivity {
+public class HealthReceipt extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_about_app);
+        setContentView(R.layout.activity_static_receipt);
 
-        simulateDayNight(/* DAY */ 0);
-        Element adsElement = new Element();
-        adsElement.setTitle("Advertise with us");
-
-        View aboutPage = new AboutPage(this)
-                .isRTL(false)
-                .setImage(R.mipmap.alogo)
-                .addItem(new Element().setTitle("Version 1"))
-                .addItem(adsElement)
-                .addGroup("Connect with us")
-                .addEmail("kumaraman367@gmail.com")
-                .addWebsite("http://aman367.rf.gd")
-                .addFacebook("amcool367")
-                .addTwitter("amcool367")
-                .addInstagram("amcool367")
-                .addGitHub("amankumar367/HospitalAppointy")
-                .addItem(getCopyRightsElement())
-                .create();
-
-        setContentView(aboutPage);
     }
 
 
@@ -56,7 +36,7 @@ public class AboutActivity extends AppCompatActivity {
         copyRightsElement.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(AboutActivity.this, copyrights, Toast.LENGTH_SHORT).show();
+                Toast.makeText(HealthReceipt.this, copyrights, Toast.LENGTH_SHORT).show();
             }
         });
         return copyRightsElement;

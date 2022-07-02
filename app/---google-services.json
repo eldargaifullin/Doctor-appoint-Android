@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "160261404606",
-    "project_id": "stroke-rehab-42a0a",
-    "storage_bucket": "stroke-rehab-42a0a.appspot.com"
+    "project_number": "534528250982",
+    "firebase_url": "https://lic-doctor-default-rtdb.firebaseio.com",
+    "project_id": "lic-doctor",
+    "storage_bucket": "lic-doctor.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:160261404606:android:9846fc6f79ebeb08486bef",
+        "mobilesdk_app_id": "1:534528250982:android:204e6d9f9bc32b2abf49a7",
         "android_client_info": {
           "package_name": "com.example.aman.hospitalappointy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "160261404606-97m7meqodgjqg0rrj5ri2fh4t16r7jlj.apps.googleusercontent.com",
+          "client_id": "534528250982-p5pvep9vua1tcup9ig3ep8t5fcu4ehho.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD4r4H8K7hM2HulaASafSLbeUD3iEwyG88"
+          "current_key": "AIzaSyDIanXvxfUm0RAaz4j96jxbXtZZlBcXLAk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "160261404606-97m7meqodgjqg0rrj5ri2fh4t16r7jlj.apps.googleusercontent.com",
+              "client_id": "534528250982-p5pvep9vua1tcup9ig3ep8t5fcu4ehho.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

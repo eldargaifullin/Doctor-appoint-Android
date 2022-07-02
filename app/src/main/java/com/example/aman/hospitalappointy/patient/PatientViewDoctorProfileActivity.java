@@ -40,6 +40,7 @@ public class PatientViewDoctorProfileActivity extends AppCompatActivity {
         mContactNo = (TextView) findViewById(R.id.patient_doctorProfile_contact);
         mShift = (TextView) findViewById(R.id.patient_doctorProfile_shift);
 
+
         Button mBookAppointmentBtn = (Button) findViewById(R.id.book_appointment_button);
         mBookAppointmentBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,6 +89,6 @@ public class PatientViewDoctorProfileActivity extends AppCompatActivity {
         mSpecialization.setText(specialization);
         mExperience.setText(experience);
         mContactNo.setText(contact);
-        mShift.setText(shift);
+        mShift.setText("Private");
     }
 }

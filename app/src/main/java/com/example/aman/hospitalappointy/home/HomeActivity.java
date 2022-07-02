@@ -20,6 +20,10 @@ import android.widget.Toast;
 
 import com.example.aman.hospitalappointy.SplashActivity;
 import com.example.aman.hospitalappointy.about.AboutActivity;
+import com.example.aman.hospitalappointy.about.AboutStrokeActivity;
+import com.example.aman.hospitalappointy.about.AboutTradMedicine;
+import com.example.aman.hospitalappointy.about.HealthReceipt;
+import com.example.aman.hospitalappointy.about.RehabStroke;
 import com.example.aman.hospitalappointy.doctor.DoctorProfileActivity;
 import com.example.aman.hospitalappointy.doctor.ShowDoctorAppointmentActivity;
 import com.example.aman.hospitalappointy.feedback.FeedbackActivity;
@@ -118,6 +122,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         final MenuItem nav_ShowAppointment = menuNav.findItem(R.id.nav_showAppointment);
         final MenuItem nav_BookedAppointment = menuNav.findItem(R.id.nav_bookedAppointment);
         final MenuItem nav_feedback = menuNav.findItem(R.id.nav_feedback);
+        //07-05-2022
+        final MenuItem nav_about_stroke = menuNav.findItem(R.id.nav_about_stroke);
         MenuItem nav_logOut = menuNav.findItem(R.id.nav_logout);
         MenuItem nav_logIn = menuNav.findItem(R.id.nav_login);
 
@@ -279,6 +285,21 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_aboutapp:
                 startActivity(new Intent(HomeActivity.this, AboutActivity.class));
                 break;
+//07-05-2022
+            case R.id.nav_about_stroke:
+                startActivity(new Intent(HomeActivity.this, AboutStrokeActivity.class));
+                break;
+            case R.id.nav_tradit_med:
+                startActivity(new Intent(HomeActivity.this, AboutTradMedicine.class));
+                break;
+            case R.id.nav_health_receipt:
+                startActivity(new Intent(HomeActivity.this, HealthReceipt.class));
+                break;
+            case R.id.nav_stroke_rehab:
+                startActivity(new Intent(HomeActivity.this, RehabStroke.class));
+                break;
+
+
             default:
                 break;
         }
